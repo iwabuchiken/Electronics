@@ -1,0 +1,22 @@
+Circuit: * C:\WORKS\WS\Electronics\Sims\D-11_v-1-0_e-1_LMC555+PNP+NPN.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jul 06 10:29:45 2013
+Total elapsed time: 0.099 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2175
+traniter = 2163
+tranpoints = 1054
+accept = 1053
+rejected = 1
+matrix size = 16
+fillins = 0
+solver = Normal
+Matrix Compiler1: 466 ƒoƒCƒg object code size  0.4/0.4/[0.1]
+Matrix Compiler2: off  [0.3]/0.5/0.8
+
+

@@ -1,0 +1,19 @@
+* C:\WORKS\WS\Electronics\Sims\D-11_v-1-0_e-1_LMC555+PNP+NPN.asc
+XU1 0 N003 N004 N001 N005 N003 N002 N001 NE555
+R1 N002 N001 1k
+R2 N002 N003 1k
+C1 N003 0 100u
+C2 N005 0 0.01u
+V1 N001 0 3v
+Q1 N001 N004 N006 0 NPN
+R4 N006 N007 240
+D2 N007 0 D
+.model D D
+.lib C:\WORKS\PROGRAMS\LTspiceIV\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\WORKS\PROGRAMS\LTspiceIV\lib\cmp\standard.bjt
+.tran 100m
+.lib NE555.sub
+.backanno
+.end
